@@ -1,0 +1,35 @@
+.eachProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.card1 {
+  height: 200px;
+  width: 200px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.ratingCard2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating2 {
+  width: 50px;
+  height: 25px;
+  background-color: #3b82f6;
+  padding: 15px 30px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.rating2 p {
+  color: aliceblue;
+  font-weight: bold;
+}

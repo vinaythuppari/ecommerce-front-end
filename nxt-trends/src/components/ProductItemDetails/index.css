@@ -1,0 +1,100 @@
+ul {
+  list-style: none;
+}
+
+button {
+  background-color: transparent;
+  border: 0px;
+}
+
+.productCard {
+  display: flex;
+  align-items: center;
+}
+
+.productImg {
+  height: 500px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.productData {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.productTitle {
+  color: #616e7c;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.star {
+  height: 20px;
+  width: 20px;
+  padding-right: 5px;
+}
+
+.ratingCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.rating {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 25px;
+  background-color: #3b82f6;
+  padding: 20px 40px 20px;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+.rating p {
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.line {
+  border: 2px solid;
+}
+
+.addCart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addCart button {
+  margin: 20px;
+}
+
+.addTo {
+  background-color: #3b82f6;
+  padding: 10px 20px 10px;
+  color: aliceblue;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.similarProducts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
